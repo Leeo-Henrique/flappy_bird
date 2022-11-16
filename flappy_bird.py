@@ -285,4 +285,5 @@ def game():
         desenhar_tela(tela, passaros, canos, chao, score)
 
 
-game()
+if __name__ == "__main__":
+    game()
